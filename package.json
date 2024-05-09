@@ -1,9 +1,9 @@
 {
-  "name": "task_tracker",
+  "name": "task_tracking",
   "private": true,
   "version": "0.0.0",
   "main": "index.html",
-  "homepage": "https://annabasenyuk.github.io/task_tracker/",
+  "homepage": "https://annabasenyuk.github.io/task_tracking/",
   "type": "module",
   "scripts": {
     "dev": "vite",
