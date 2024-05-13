@@ -37,9 +37,9 @@ export const Header: React.FC = () => {
 
 
       <nav className="container_nav">
-        <NavLink to="/all" className="container_title" onClick={() => changeFilter('ALL')}>All</NavLink>
-        <NavLink to="/active" className="container_title" onClick={() => changeFilter('ACTIVE')}>Active</NavLink>
-        <NavLink to="/completed" className="container_title" onClick={() => changeFilter('COMPLETED')}>Completed</NavLink>
+        <NavLink to="/task_tracking/all" className="container_title" onClick={() => changeFilter('ALL')}>All</NavLink>
+        <NavLink to="/task_tracking/active" className="container_title" onClick={() => changeFilter('ACTIVE')}>Active</NavLink>
+        <NavLink to="/task_tracking/completed" className="container_title" onClick={() => changeFilter('COMPLETED')}>Completed</NavLink>
       </nav>
     </div>
   )

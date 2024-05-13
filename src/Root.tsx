@@ -12,9 +12,9 @@ export const Root = () => {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<App />}>
+          <Route path="/task_tracking/" element={<App />}>
             <Route index element={<AllToDoPage />} />
-            <Route path="all" element={<Navigate to="/" replace />} />
+            <Route path="all" element={<Navigate to="/task_tracking/" replace />} />
             <Route path="active" element={<ActiveToDoPage />} />
             <Route path="completed" element={<CompletedToDoPage />} />
             <Route path="*" element={<NotFoundPage />} />
