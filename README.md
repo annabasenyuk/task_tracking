@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[DEMO LINK](https://annabasenyuk.github.io/task_tracking/)
 
-Currently, two official plugins are available:
+Task Tracker is a simple application for tracking tasks. You can create, mark as completed, edit, and delete tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Create new tasks
+- Mark tasks as completed or active
+- Edit task names
+- Delete tasks
+- Filter tasks by status (all, active, completed)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+git clone https://github.com/your_username/task_tracking.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install dependencies:
+
+npm install
+
+3. Run the project:
+
+npm run dev
+
+4. Open your browser at http://localhost:3000
+
+
+## Technologies
+
+React - library for building user interfaces
+
+Redux - for managing the state of the application
+
+React Router - for navigation between pages
+
+Vite - fast and modern build tool
